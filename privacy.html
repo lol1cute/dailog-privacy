@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー - Dailog</title>
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8;
+       max-width: 44rem; margin: 0 auto; padding: 1.5rem 1rem 4rem; color: #222; background: #fbf8f1; }
+@media (prefers-color-scheme: dark) { body { color: #e8e4dc; background: #1c1a17; } a { color: #9fd3b3; } pre { background: #2a2622; } }
+h1 { font-size: 1.6rem; border-bottom: 2px solid #8a7a5c; padding-bottom: .3rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+nav { font-size: .95rem; margin-bottom: 1.5rem; } nav a { margin-right: 1rem; }
+pre { background: #f1ece0; padding: .8rem; overflow-x: auto; font-size: .78rem; line-height: 1.4; }
+footer { margin-top: 3rem; font-size: .85rem; opacity: .75; border-top: 1px solid #8a7a5c; padding-top: .8rem; }
+ul { padding-left: 1.4rem; }
+</style>
+</head>
+<body>
+<nav><a href="index.html">サポート</a> <strong>プライバシーポリシー</strong> <a href="terms.html">利用規約</a> <a href="disclaimer.html">免責事項</a> <a href="licenses.html">オープンソースライセンス</a></nav>
+<h1>プライバシーポリシー</h1>
+<p>RYUSEI GHGITA（以下「開発者」）は、iOS アプリ「Dailog」（以下「本アプリ」）における利用者の情報の取り扱いについて、次のとおり定めます。</p>
+<h2>1. 基本方針</h2>
+<p>本アプリは、日々のタスクを記録し、承認したフレンドと達成状況を見せ合うための個人開発アプリです。開発者は、本アプリの機能を提供するために必要な最小限の情報だけを取り扱い、広告配信・行動追跡・第三者への販売は行いません。</p>
+<h2>2. 端末の中に保存する情報</h2>
+<p>次の情報は利用者の iPhone の中に保存され、フレンド機能を使わない限り端末の外へ送られません。</p>
+<ul>
+<li>タスクの名前、並び順、完了した時刻、日付</li>
+<li>日ごとの達成記録（直近の記録をランク表示に使います）</li>
+<li>設定（一日の区切り時刻、通知の有無と時刻、表示名）</li>
+<li>使い方の案内を見たかどうか</li>
+</ul>
+<p>これらはホーム画面のウィジェットと共有され（同じ端末の中）、アプリを削除すると端末から消えます。</p>
+<h2>3. サーバーへ送る情報（フレンド機能）</h2>
+<p>本アプリは、フレンドとの共有のために、Supabase, Inc. が提供するクラウドサービス「Supabase」上のデータベースを使います。名前設定を済ませると、次の情報がサーバーへ送られ保存されます。</p>
+<ul>
+<li>匿名の利用者 ID（端末ごとに自動で発行される文字列。メールアドレス・電話番号・氏名などの登録は不要です）</li>
+<li>表示名（利用者が入力した、フレンドに見せる名前）</li>
+<li>タスクの名前、並び順、完了した時刻、日付</li>
+<li>日ごとの達成記録</li>
+<li>一日の区切り時刻と、端末のタイムゾーン（フレンド側で日付を正しく表示するために使います）</li>
+<li>フレンドコード、フレンドの申請・承認・解除の記録</li>
+<li>フレンドへ送ったコメントの本文と送った日</li>
+</ul>
+<p>利用目的は、フレンドとの共有機能（相手の冒険書の閲覧、ランキング、コメント）を提供することに限ります。</p>
+<h2>4. 誰が見られるか</h2>
+<ul>
+<li>タスク、達成記録、表示名: 利用者本人と、利用者が承認したフレンドだけが見られます。フレンド欄で相手ごとに「非公開」にすると、その相手には見えなくなります。</li>
+<li>コメント: 送った本人と受け取った本人だけが見られます。</li>
+<li>フレンドコード: 利用者本人だけが見られます。</li>
+<li>開発者: サーバーの管理者として、障害対応や削除依頼への対応のために必要な範囲でデータを参照することがあります。それ以外の目的で参照・公開することはありません。</li>
+</ul>
+<h2>5. 通知</h2>
+<p>通知は端末の中で予約される「ローカル通知」です。通知のためにサーバーへ情報を送ることはありません。通知の許可は iOS の設定からいつでも取り消せます。</p>
+<h2>6. 利用状況の計測・広告</h2>
+<p>本アプリは、アクセス解析・広告 SDK・トラッキング（追跡）の仕組みを含みません。IDFA（広告識別子）も使いません。</p>
+<h2>7. 第三者への提供・委託</h2>
+<p>開発者は、利用者の情報を第三者に販売・提供しません。データの保管は前記の Supabase に委託しています。Supabase の取り扱いについては同社のプライバシーポリシーをご確認ください。法令に基づく開示要請があった場合を除き、これ以外の提供はありません。</p>
+<h2>8. 保存期間と削除</h2>
+<ul>
+<li>フレンドを解除すると、その相手からは利用者のデータが見えなくなります。</li>
+<li>本アプリを端末から削除すると、端末内のデータは消えます。サーバー上の写しと匿名の利用者 ID は、開発者が削除するまで残ることがあります。</li>
+<li>サーバー上のデータの削除を希望する場合は、下記の連絡先へ、表示名とフレンドコード（設定 → フレンドコードで確認できます）を添えてご連絡ください。開発者が確認のうえ、原則として 14 日以内に削除します。</li>
+</ul>
+<h2>9. 安全管理</h2>
+<p>サーバーとの通信は暗号化（HTTPS）されます。データベースには「行レベルセキュリティ」と呼ばれる仕組みを設定し、本人とフレンド以外がデータを読めないようにしています。ただし、インターネットを介するサービスの性質上、完全な安全を保証するものではありません。</p>
+<h2>10. 未成年の利用</h2>
+<p>本アプリは特定の年齢層を対象としたものではありません。未成年の方は、保護者の同意のもとでご利用ください。</p>
+<h2>11. 本ポリシーの変更</h2>
+<p>本ポリシーは、法令の変更や機能の追加に応じて改定することがあります。改定した場合は、本アプリ内と下記の Web ページで新しい内容を掲載します。</p>
+<h2>12. お問い合わせ</h2>
+<p>本アプリの情報の取り扱いに関するご質問・削除のご依頼は、次の連絡先までお願いします。</p>
+<ul>
+<li>運営者: RYUSEI GHGITA</li>
+<li>連絡先: ryusei0801abc@gmail.com</li>
+<li>Web: <a href="https://lol1cute.github.io/dailog-privacy/">https://lol1cute.github.io/dailog-privacy/</a></li>
+</ul>
+<p>制定日: 2026-09-26</p>
+<footer>Dailog / 運営者: RYUSEI GHGITA / 連絡先: <a href="mailto:ryusei0801abc@gmail.com">ryusei0801abc@gmail.com</a> / 最終更新: 2026-09-26</footer>
+</body>
+</html>
